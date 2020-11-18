@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.aboutme {
+    width: 90%;
+    margin-left:20px;
+    margin-bottom: 20px;
+    padding: 25px;
+    height: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background: linear-gradient(170deg, #005b03 0%, #3db412);
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+.aboutme img {
+    border: 3px solid #ffffff; 
+    max-width: 100%;
+}
+
+.aboutme h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.aboutme p {
+    margin-top: 10px;
+    text-indent: 10px;
+}
+
+#info {
+    font-size: 20px;
+    padding-left: 200px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}

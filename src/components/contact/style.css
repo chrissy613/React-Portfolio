@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.contactMe {
+    width: 90%;
+    margin-left:20px;
+    margin-bottom: 20px;
+    padding: 25px;
+    height: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background: linear-gradient(170deg, #005b03 0%, #3db412);
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+.contactMe h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.contactMe h6 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.contactMe label {
+    font-size: 22px;
+}
