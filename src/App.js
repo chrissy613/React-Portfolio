@@ -11,7 +11,7 @@ function App() {
       <div>
         <Header />
         <Nav />
-        <Bio />
+        <Portfolio />
         <Footer />
       </div>
     );
