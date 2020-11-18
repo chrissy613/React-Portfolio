@@ -5,6 +5,7 @@ let rogueblitz = require("./rogueblitz.png");
 let readme = require("./readme.png");
 let fitnessTracker = require("./fitnesstracker.png");
 let employeeManager = require("./employeemanager.png");
+let weatherApp = require("./weatherapp.png");
 
 function Portfolio () {
       return (
@@ -76,10 +77,19 @@ function Portfolio () {
                 <p>Tools Used: JavaScript and Node.</p>
               </div>
             </div>
-
-
-
-
+            <br />
+            <div className="row">
+              <div className="col-md-6">
+                <h3><a href="https://chrissy613.github.io/Weather-Dashboard/" target="_blank" id="deploy" style={{ color: '#FFF' }} rel="noreferrer">Weather Dashboard</a></h3> 
+                <a href="https://chrissy613.github.io/Weather-Dashboard/" target="_blank" rel="noreferrer">
+                  <img src={weatherApp.default} alt="weather app screenshot"/>
+                </a>
+              </div>
+              <div className="col-md-6">
+                <p><a href="https://github.com/chrissy613/Weather-Dashboard/" target="_blank" style={{ color: '#FFF' }} rel="noreferrer">This is my weather dashboard application, another app perfect for daily use! It lets you search for your city and shows you the day's weather forecast, along with a 5 day forecast.</a></p>
+                <p>Tools Used: HTML, CSS, and JavaScript.</p>
+              </div>
+            </div>
           </div>   
         </main>
       );

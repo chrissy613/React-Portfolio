@@ -8,6 +8,7 @@ function Contact () {
           <div id="contactMe" className="contactMe">
             <h2>Contact Me!</h2>
             <h6>crook.christoph@gmail.com</h6>
+            <h6>(856)-273-9707</h6>
             <form>
               <div className="form-row">
                 <div className="form-group col-md-6">

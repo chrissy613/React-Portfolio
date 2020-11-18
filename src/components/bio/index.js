@@ -14,7 +14,7 @@ function Bio () {
               </div>
               <div className="col-md-8" id="aboutText">
                 <p>
-                  Hey! My name is Christopher Crook, welcome to my biography! I am a 26 year old Rutgers graduate currently enrolled in the Rutgers Coding Bootcamp. I bring extensive knowledge of database manipulation with MySQL and MongoDB. I am proficient in object-oriented JavaScript, jQuery, Bootstrap, and Node servers. My strengths are in communication, creativity, and collaboration.
+                  Hey! My name is Christopher Crook, welcome to my biography! I am a 26 year old Rutgers graduate currently enrolled in the Rutgers Coding Bootcamp. I bring extensive knowledge of database manipulation with MySQL and MongoDB. I am proficient in object-oriented JavaScript, React, jQuery, Bootstrap, and Node servers. My strengths are in communication, creativity, and collaboration.
                 </p>
                 <p>
                   Check out my first group coding project, an app called N0teDr0p! N0teDr0p allows a user to search for a musician and receive their top 10 hits, song lyrics, and information on upcoming live events.
