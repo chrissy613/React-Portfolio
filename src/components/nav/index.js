@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from 'react-router-dom';
 
 function Nav() {
       return (
@@ -7,13 +8,19 @@ function Nav() {
         <nav>
           <div className="row">
             <div className="col-md-2">
-            <a href="mybio.html" style={{ color: '#FFF' }}>About Me</a>
+              <Link to="/mybio.html" style={{ color: '#FFF' }} className={window.location.pathname === "/mybio" ? "nav-link active" : "nav-link"}>
+                About Me
+              </Link>
             </div>
             <div className="col-md-2">
-              <a href="myportfolio.html" style={{ color: '#FFF' }}>Portfolio</a>
+              <Link to="/myportfolio.html" style={{ color: '#FFF' }} className={window.location.pathname === "/myportfolio" ? "nav-link active" : "nav-link"}>
+                Portfolio
+              </Link>
             </div>
             <div className="col-md-2">
-              <a href="contactme.html" style={{ color: '#FFF' }}>Contact Me</a>
+              <Link to="contactme.html" style={{ color: '#FFF' }} className={window.location.pathname === "/contactme" ? "nav-link active" : "nav-link"}>
+                Contact Me
+              </Link>
             </div>
             <div className="col-md-2">
               <a href="https://github.com/chrissy613" target="_blank" style={{ color: '#FFF' }} rel="noreferrer">My GitHub</a>
