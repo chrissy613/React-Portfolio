@@ -7,13 +7,13 @@ function Nav() {
         <nav>
           <div className="row">
             <div className="col-md-2">
-            <a href="/" style={{ color: '#FFF' }}>About Me</a>
+            <a href="mybio.html" style={{ color: '#FFF' }}>About Me</a>
             </div>
             <div className="col-md-2">
-              <a href="portfolio.html" style={{ color: '#FFF' }}>Portfolio</a>
+              <a href="myportfolio.html" style={{ color: '#FFF' }}>Portfolio</a>
             </div>
             <div className="col-md-2">
-              <a href="contact.html" style={{ color: '#FFF' }}>Contact Me</a>
+              <a href="contactme.html" style={{ color: '#FFF' }}>Contact Me</a>
             </div>
             <div className="col-md-2">
               <a href="https://github.com/chrissy613" target="_blank" style={{ color: '#FFF' }} rel="noreferrer">My GitHub</a>

@@ -13,15 +13,9 @@ function App() {
         <Header />
         <Nav />
         <Switch>
-          <Route exact path="/">
-            <Bio/>
-          </Route>
-          <Route exact path="/portfolio.html">
-            <Portfolio/>
-          </Route>
-          <Route exact path="/contact.html">
-            <Contact/>
-          </Route>
+          <Route exact path="/mybio.html" component={Bio} />
+          <Route exact path="/myportfolio.html" component={Portfolio} />
+          <Route exact path="/contactme.html" component={Contact} />
         </Switch>
         <Footer />
       </div>
