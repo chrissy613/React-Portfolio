@@ -12,8 +12,10 @@ function App() {
       <div>
         <Header />
         <Nav />
-        <Bio></Bio>
+        {/* <Bio></Bio> */}
         <Switch>
+          <Route exact path="/React-Portfolio" component={Bio} />
+          <Route exact path="/mybio.html" component={Bio} />
           <Route exact path="/myportfolio.html" component={Portfolio} />
           <Route exact path="/contactme.html" component={Contact} />
         </Switch>
